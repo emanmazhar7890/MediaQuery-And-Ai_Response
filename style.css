@@ -1,0 +1,36 @@
+.btn-click:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pseudo_class a:visited {
+  color: brown;
+}
+.pseudo_class a:active {
+  color: cadetblue;
+}
+p::first-letter {
+  font-size: large;
+  font-weight: 900;
+}
+p::first-line {
+  color: rgb(109, 97, 80);
+}
+
+.btn-click {
+  position: relative;
+}
+.btn-click::before {
+  content: "";
+  position: absolute;
+  /* width: 100%; */
+  height: 100%;
+  background-color: palevioletred;
+}
+.btn-click:hover::before {
+  width: 100%;
+}
+
+p::before {
+  content: "😍";
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    Media queries and pseudo classes and element
+    <div class="pseudo_class">
+      <a href="https://www.w3schools.com/css/css_pseudo_elements.asp"
+        >i'm link</a
+      >
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt omnis
+      dolore nostrum veritatis aperiam voluptas, fugiat similique et, numquam
+      qui magni saepe quibusdam eius repudiandae ducimus veniam nihil,
+      doloremque cumque.
+    </p>
+    <button class="btn-click">click me</button>
+    <!--CHAT BOT-->
+    <form onsubmit="sendQuery(); return false;">
+      <div>
+        <input type="text" name="query" id="query" />
+      </div>
+      <button>send</button>
+    </form>
+    <div class="response"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
